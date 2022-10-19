@@ -113,17 +113,12 @@ class MyApp extends StatelessWidget {
               ),
               Container(
                 padding: EdgeInsets.all(1),
-                decoration: BoxDecoration(
-                  color:  Color.fromARGB(255, 252, 253, 253),
-                ),
+                decoration: BoxDecoration(),
                 child: Container(
                   height: 80,
                   width: 1000,
                   padding:
                       EdgeInsets.symmetric(vertical: 30.0, horizontal: 1.0),
-                  decoration: BoxDecoration(
-                    color: Color.fromARGB(66, 62, 132, 189),
-                  ),
                   child: Column(
                     children: [
                       Row(
@@ -162,17 +157,14 @@ class MyApp extends StatelessWidget {
                 ),
               ),
               Container(
-                
                 padding: EdgeInsets.all(1),
                 decoration: BoxDecoration(
                   color: Color.fromARGB(66, 175, 216, 250),
                 ),
                 child: Container(
-                  
                   height: 70,
                   width: 800,
                   child: Card(
-                    
                     color: Colors.white,
                     margin:
                         EdgeInsets.symmetric(horizontal: 15.0, vertical: 8.0),
@@ -228,9 +220,9 @@ class MyApp extends StatelessWidget {
                 ),
               ),
               Container(
-                 padding: EdgeInsets.all(1),
+                padding: EdgeInsets.all(1),
                 decoration: BoxDecoration(
-                  color:  Color.fromARGB(66, 175, 216, 250),
+                  color: Color.fromARGB(66, 175, 216, 250),
                 ),
                 child: Row(
                   children: [
@@ -246,7 +238,7 @@ class MyApp extends StatelessWidget {
                       width: 70.0,
                     ),
                     Icon(
-                      Icons.calendar_today_rounded ,
+                      Icons.calendar_today_rounded,
                       color: Color.fromARGB(255, 49, 47, 47),
                       size: 20.0,
                     ),
@@ -254,7 +246,7 @@ class MyApp extends StatelessWidget {
                       width: 70.0,
                     ),
                     Icon(
-                      Icons.library_add_sharp  ,
+                      Icons.add_box_sharp ,
                       color: Color.fromARGB(255, 117, 75, 218),
                       size: 20.0,
                     ),
@@ -262,15 +254,15 @@ class MyApp extends StatelessWidget {
                       width: 70.0,
                     ),
                     Icon(
-                      Icons.attach_money_outlined ,
+                      Icons.attach_money_outlined,
                       color: Color.fromARGB(255, 56, 53, 53),
                       size: 20.0,
                     ),
-                     SizedBox(
+                    SizedBox(
                       width: 90.0,
                     ),
                     Icon(
-                      Icons.contact_mail ,
+                      Icons.account_circle_outlined,
                       color: Color.fromARGB(255, 43, 41, 41),
                       size: 20.0,
                     ),
